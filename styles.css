@@ -241,6 +241,11 @@ li {
     margin-right: 5rem;
 }
 
+.img {
+    width: 50%;
+    height: 50%;
+}
+
 .about-details {
     flex: 1;
 }
@@ -251,10 +256,6 @@ li {
 .social-media i {
     font-size: 5rem;
     transition: color 650ms;
-}
-.portimg.resize {
-    max-width: 50%;
-    max-height: 50%;
 }
 
 .fa-facebook-square:hover {
