@@ -4,14 +4,270 @@
         <title>Josh Price</title>
         <meta charset = "UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type = "text/css" href = "styles.css">
-        <script src="script.js"></script>
+        <!--AOS Animation/Fontawesome Stylesheet-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!--Custom CSS-->
+        <link rel="stylesheet" href = "styles.css">
+
     </head>
     <body>
+        <header>
+            <div class="menu-toggler">
+                <div class="bar half start"></div>
+                <div class="bar"></div>
+                <div class="bar half end"></div>
+            </div>
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contanct</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="landing-text">
+                <h1>Josh Price</h1>
+                <h6>Fullstack Web Developer</h6>
+            </div>
+        </header>
+
+        <!--About me Section-->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img">
+                    <img src="images/me.jpg" alt="">
+                </div>
+                <div class="about-details">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p> 
+                        Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                        but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, 
+                        a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
+                    </p>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills Section-->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Services</h1>
+                    <h6>What I can do for you</h6>
+                </div>
+                <div class="my-skills">
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-code-group"></i>
+                        </div>
+                        <h1>Front-End</h1>
+                        <p>     
+                            Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                            but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, 
+                            a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-code-group"></i>
+                        </div>
+                        <h1>Back-End</h1>
+                        <p>     
+                            Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                            but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, 
+                            a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <div class="icon-container">
+                            <i class="fas fa-chart-group"></i>
+                        </div>
+                        <h1>Operations</h1>
+                        <p>     
+                            Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                            but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, 
+                            a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Portfolio Section-->
+        <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Portfolio</h1>
+                        <h6>Check out my work!</h6>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/github-octocat.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h6>bioSite</h6>
+                            <h1>Web 200</h1>
+                            <p>
+                                Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                            </p>
+                            <a href="#" class="cts">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <div class="description">
+                                <h6>My Portfolio</h6>
+                                <h1>Web-201</h1>
+                                <p>
+                                    Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                    but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                                </p>
+                                <a href="#" class="cts">View Details</a>
+                            </div>
+                            <img class= "portimg" src="images/portfolio1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/github-octocat.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h6>Javascript</h6>
+                            <h1>Web-230/231</h1>
+                            <p>
+                                Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                            </p>
+                            <a href="#" class="cts">View Details</a>
+                        </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="images/github-octocat.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h6>Advanced Javascript</h6>
+                            <h1>Web-330</h1>
+                            <p>
+                                Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                            </p>
+                            <a href="#" class="cts">View Details</a>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <!--Experience Section-->
+        <section class="experience" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Work Experience</h1>
+                    <h6>Resume</h6>
+                </div>
+                <div class="timeline">
+                    <ul>
+                        <li class="date" data-date="2017 - Present">
+                            <h1>Kiewit</h1>
+                            <p>
+                                Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                            </p>
+                        </li>
+                        <li class="date" data-date="2016 - 2017">
+                            <h1>WRK Systems</h1>
+                            <p>
+                                Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                            </p>
+                        </li>
+                        <li class="date" data-date="2014 - 2016">
+                            <h1>Contractor</h1>
+                            <p>
+                                Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, 
+                                but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1></h1>
+                    <h6>Hit me up for availability</h6>
+                </div>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Enter your Email" required>
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" placeholder="What can I help you with?" cols="10" rows="10"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="copyright">
+            <div class="up" id="up">
+                <i class="fas fa-chevron-up"></i>
+                <p>&copy; 2019 Joshua Price</p>
+            </div>
+        </footer>
         <div id="countDown">
             <h1>Hello World!</h1>
             <p>I'm launching a portfolio page in:</p>
             <p id="timer"></p>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="script.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
