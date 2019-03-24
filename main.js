@@ -15,7 +15,7 @@ $(document).ready(function () {
             scrollTop: $($(this).attr('href')).offset().top - 100
         },  1500);
     });
-    //scrolls back to top of page after click.
+    //scrolls back to top of page after click
     $('#up').on('click', function () {
         $('html, body').animate({
             scrollTop: 0
